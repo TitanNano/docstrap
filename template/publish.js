@@ -31,21 +31,22 @@ var globalUrl = helper.getUniqueFilename( 'global' );
 var indexUrl = helper.getUniqueFilename( 'index' );
 
 var navOptions = {
-	systemName            : conf.systemName || "Documentation",
-	navType               : conf.navType || "vertical",
-	footer                : conf.footer || "",
-	copyright             : conf.copyright || "",
-	theme                 : conf.theme || "simplex",
-	syntaxTheme           : conf.syntaxTheme || "default",
-	linenums              : conf.linenums,
-	collapseSymbols       : conf.collapseSymbols || false,
-	inverseNav            : conf.inverseNav,
-	outputSourceFiles     : conf.outputSourceFiles === true,
-	sourceRootPath        : conf.sourceRootPath,
-	outputSourcePath      : conf.outputSourcePath,
-	dateFormat            : conf.dateFormat,
-	analytics             : conf.analytics || null,
-	highlightTutorialCode : conf.highlightTutorialCode
+  logoFile: conf.logoFile
+  systemName: conf.systemName || "Documentation",
+  navType: conf.navType || "vertical",
+  footer: conf.footer || "",
+  copyright: conf.copyright || "",
+  theme: conf.theme || "simplex",
+  syntaxTheme: conf.syntaxTheme || "default",
+  linenums: conf.linenums,
+  collapseSymbols: conf.collapseSymbols || false,
+  inverseNav: conf.inverseNav,
+  outputSourceFiles: conf.outputSourceFiles === true,
+  sourceRootPath: conf.sourceRootPath,
+  outputSourcePath: conf.outputSourcePath,
+  dateFormat: conf.dateFormat,
+  analytics: conf.analytics || null,
+  highlightTutorialCode: conf.highlightTutorialCode
 };
 
 var navigationMaster = {
